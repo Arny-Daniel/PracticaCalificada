@@ -1,3 +1,4 @@
+
 package PrácticaCalificada;
 
 public class Empleado {

@@ -1,3 +1,4 @@
+
 package PrácticaCalificada;
 
 import javax.swing.JOptionPane;
@@ -8,7 +9,8 @@ public class Docente extends Empleado {
     
     private static final double BONO = 100.0;
 
-    public Docente(String categoria, int gradoAcademico, String nombre, double sueldoBase, int numeroEmpleado, int antigüedad) {
+    public Docente(String categoria, int gradoAcademico, String nombre, double sueldoBase,
+            int numeroEmpleado, int antigüedad) {
     super(nombre, sueldoBase, numeroEmpleado, antigüedad);
     this.categoria = categoria;
     this.gradoAcademico = gradoAcademico;
